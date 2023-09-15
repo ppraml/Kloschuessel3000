@@ -3,20 +3,10 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "Kloschuessel3000": {
       "projectType": "application",
       "schematics": {},
-=======
-    "kloschuessel3000": {
-      "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -30,20 +20,12 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-<<<<<<< HEAD
-=======
-            "inlineStyleLanguage": "scss",
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css"
-=======
-              "src/styles.scss"
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
             ],
             "scripts": []
           },
@@ -78,17 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-<<<<<<< HEAD
               "browserTarget": "Kloschuessel3000:build:production"
             },
             "development": {
               "browserTarget": "Kloschuessel3000:build:development"
-=======
-              "browserTarget": "kloschuessel3000:build:production"
-            },
-            "development": {
-              "browserTarget": "kloschuessel3000:build:development"
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
             }
           },
           "defaultConfiguration": "development"
@@ -96,11 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "Kloschuessel3000:build"
-=======
-            "browserTarget": "kloschuessel3000:build"
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
           }
         },
         "test": {
@@ -111,31 +82,20 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-<<<<<<< HEAD
-=======
-            "inlineStyleLanguage": "scss",
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css"
-=======
-              "src/styles.scss"
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
             ],
             "scripts": []
           }
         }
       }
     }
-<<<<<<< HEAD
   },
   "cli": {
     "analytics": "128e0bd5-708d-4075-a392-eaf7b887a449"
-=======
->>>>>>> 62a76a8528b7881ab57aca63a80db563ed8895e0
   }
 }
